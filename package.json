@@ -1,0 +1,27 @@
+{
+  "name": "brat-video-api",
+  "version": "1.0.0",
+  "description": "A web API to generate animated Brat videos from text.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "api",
+    "video",
+    "brat",
+    "ffmpeg",
+    "nodejs",
+    "express"
+  ],
+  "author": "Your Name or Project Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

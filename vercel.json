@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "functions": {
+    "index.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "routes": [
+    { "src": "/animated", "dest": "/index.js" },
+    { "src": "/", "dest": "/index.js" }
+  ]
+}
